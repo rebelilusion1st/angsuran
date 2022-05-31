@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Perhitungan Angsuran</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-md">
+        <!-- div header -->
+        <!-- <div class="header">
+            
+        </div> -->
+        <div class="kriwil">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#198754" fill-opacity="1" d="M0,192L15,170.7C30,149,60,107,90,122.7C120,139,150,213,180,245.3C210,277,240,267,270,240C300,213,330,171,360,160C390,149,420,171,450,181.3C480,192,510,192,540,213.3C570,235,600,277,630,250.7C660,224,690,128,720,80C750,32,780,32,810,58.7C840,85,870,139,900,144C930,149,960,107,990,101.3C1020,96,1050,128,1080,149.3C1110,171,1140,181,1170,186.7C1200,192,1230,192,1260,208C1290,224,1320,256,1350,272C1380,288,1410,288,1425,288L1440,288L1440,0L1425,0C1410,0,1380,0,1350,0C1320,0,1290,0,1260,0C1230,0,1200,0,1170,0C1140,0,1110,0,1080,0C1050,0,1020,0,990,0C960,0,930,0,900,0C870,0,840,0,810,0C780,0,750,0,720,0C690,0,660,0,630,0C600,0,570,0,540,0C510,0,480,0,450,0C420,0,390,0,360,0C330,0,300,0,270,0C240,0,210,0,180,0C150,0,120,0,90,0C60,0,30,0,15,0L0,0Z"></path></svg>
+        </div>
+        <h1 class="text-center">Form Perhitungan Angsuran Kredit</h1>
+        <h2 class="text-center">Memakai <span class="text-primary">Bootstrap</span></h2>
+        <!-- <h3 class="text-center">oleh</h3>
+        <h3 class="text-center text-danger mb-5">Muhammad Muslim Abdul Jabbaar</h3> -->
+        <div class="container-form">
+
+            <form action="">
+                <!-- Nama -->
+                <div class="mb-3 row form nama">
+                    <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="nama">
+                    </div>
+                </div>
+                <!-- Jumlah Pinjaman -->
+                <div class="mb-3 row form jmlp">
+                    <label for="jmlp" class="col-sm-2 col-form-label">Jumlah Pinjaman</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="jmlp">
+                    </div>
+                </div>
+                <!-- Tenor -->
+                <div class="mb-3 row form tenor">
+                    <label for="tenor" class="col-sm-2 col-form-label">Tenor</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="tenor">
+                    </div>
+                </div>
+                <!-- Bunga(%) -->
+                <div class="mb-3 row form bunga">
+                    <label for="bunga" class="col-sm-2 col-form-label">Bunga(%)</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="bunga">
+                    </div>
+                </div>
+                <!-- Angsuran/Bulan -->
+                <div class="mb-3 row form angsuran">
+                    <label for="angsuran" class="col-sm-2 col-form-label">Angsuran</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="angsuran" disabled>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-danger" id="tampil">Hitung</button>
+
+            </form>
+
+
+        </div>
+        <footer class="text-center">&copy<a href="">Muhammad Muslim Abdul Jabbaar | 2022</a></footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
